@@ -12,7 +12,7 @@ module.exports = {
     filename: "index.js"
   },
 
-  module {
+  module: {
     rules: [{
       //拡張子.tsの場合
       test: /\.ts$/,
@@ -26,7 +26,7 @@ module.exports = {
     modules: [
       "node_modules",
     ],
-    extentions: [
+    extensions: [
       '.ts',
       '.js'
     ]
