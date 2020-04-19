@@ -19,9 +19,13 @@
   },
   "homepage": "https://github.com/RinyuDrvo/typescript_practice02#readme",
   "devDependencies": {
+    "@types/uuid": "^7.0.2",
     "ts-loader": "^7.0.0",
     "typescript": "^3.8.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "uuid": "^7.0.3"
   }
 }
